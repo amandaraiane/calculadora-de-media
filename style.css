@@ -1,0 +1,68 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 400px;
+  background-color: #222;
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+input{
+  width: 180px;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+}
+
+label {
+  display: inline-block;
+  width: 135px;
+  text-align: right;
+}
+
+.container {
+  text-align: center;
+  color:#ffffff;
+  padding: 35px;
+  height: 100vh;
+}
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.page-logo {
+  width: 150px;
+  margin-top: 100px;
+}
+
+.alura-logo {
+  width: 60px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.button{
+  background-color: #1a1a1a;
+  font-size: 17px;
+  padding-top: 11px;
+  padding-bottom: 30px; 
+  color: white;
+  border: 1px solid #FFFF00;
+  text-align: center;
+}
+
+.button:hover{
+  background-color: #121212;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
